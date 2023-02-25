@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84846CDA297D0B160011B0D9 /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84846CD9297D0B160011B0D9 /* Encapsulation.swift */; };
+		848DA5C2297BEC2200AB9938 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DA5C1297BEC2200AB9938 /* Generics.swift */; };
 		84D8D0942979661E00700AB9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8D0932979661E00700AB9 /* main.swift */; };
+		84D8D09B2979667200700AB9 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8D09A2979667200700AB9 /* Enum.swift */; };
+		84D8D09D29798BE800700AB9 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8D09C29798BE800700AB9 /* Protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		84846CD9297D0B160011B0D9 /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
+		848DA5C1297BEC2200AB9938 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 		84D8D0902979661E00700AB9 /* Basic - Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Basic - Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D8D0932979661E00700AB9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84D8D09A2979667200700AB9 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		84D8D09C29798BE800700AB9 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				84D8D0932979661E00700AB9 /* main.swift */,
+				848DA5C1297BEC2200AB9938 /* Generics.swift */,
+				84D8D09C29798BE800700AB9 /* Protocol.swift */,
+				84D8D09A2979667200700AB9 /* Enum.swift */,
+				84846CD9297D0B160011B0D9 /* Encapsulation.swift */,
 			);
 			path = "Basic - Swift";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D8D09B2979667200700AB9 /* Enum.swift in Sources */,
+				84846CDA297D0B160011B0D9 /* Encapsulation.swift in Sources */,
+				848DA5C2297BEC2200AB9938 /* Generics.swift in Sources */,
 				84D8D0942979661E00700AB9 /* main.swift in Sources */,
+				84D8D09D29798BE800700AB9 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
